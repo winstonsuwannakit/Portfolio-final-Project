@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<div class="d1">
+    <p class="p1">
+    Winston <br>suwannakit
+</p>
+<script src="./transition.js"></script>
+</head>
+
+<body id="backgroundOK">
+
+    <nav>
+        <p onclick="fadeOut1()" id="home">Home</p>
+        <p onclick="fadeOut2()" id="about">About</p>
+        <p onclick="fadeOut3()" id="project">Projects</p>
+        <p onclick="fadeOut4()" id="contact">Contact</p>
+    </nav>
+<div class="wallp">
+    <div class="ww" id="www1">
+        <div class="box" id="boxBlack"></div>
+        <p onclick="myfunciton()">City Night</p>
+    </div>
+    <div class="ww" id="www2">
+        <div class="box" id="boxWhite"></div>
+        <p>Nature</p>
+    </div>
+</div>
+
+</div>
+<div class="d2" id="n1">
+    <p>
+
+    </p>
+</div>
+<div class="d2" id="n2">
+    <p>
+     
+My Portfolio
+<br>
+Hello my name is Winston Suwannakit and my full name is Winston Teewara Suwannakit, and i'm from Thailand. <br>Currently I'm a student at ALA (American Leadership Academy) High school and I'm also a CTE Software & App Design student. Learning how to create websites and design. I've been in this program for about 9 months. I'm good at writing CSS and HTML. 
+    <br><br>
+    <a href="Portfolio Resume.pdf" alt="Portfolio" target="_blank">Resume >></a>
+</p>
+</div>
+<div class="d2" id="n3">
+<p>
+        <a href="https://github.com/winstonsuwannakit/car-selling.git" alt="project 1 car selling website" target="_blank">
+        Car selling website
+        </a><br><br>
+        <a href="https://github.com/winstonsuwannakit/Pokemon.git" alt="project 2 Pokemon" target="_blank">
+        Pokemon Edit website
+        </a><br><br>
+        <a href="https://github.com/winstonsuwannakit/Dog-website.git" alt="project 3 Dog is the man best friends" target="_blank">
+        Dog is man's best friends
+        </a><br><br>
+        <a href="https://github.com/winstonsuwannakit/My-Portfolio.git" alt="project 4 My first Portfolio project" target="_blank">
+        My first Portfolio 
+        </a><br><br>
+        <a href="https://github.com/winstonsuwannakit/Free-map-Location.git" alt="project 5 Freee map project" target="_blank">
+        Free map Location
+        </a><br><br>
+        <a href="https://github.com/winstonsuwannakit/Button-Project.git" alt="project 6 many stlye button project" target="_blank">
+        Button With many Stlye
+        </a><br><br>
+        <a href="https://github.com/winstonsuwannakit/Password-Generator.git" alt="project 7 Password-Generator" target="_blank">
+        Password Generator
+        </a>
+        
+</p>
+</div>
+<div class="d2" id="n4">
+<p>
+sagdasfguguurturiwerwiryo
+</p>
+</div>
+
+</main>
+
+</body>
+
+</html>
+
+<style>
+    .d1 {
+       position: fixed;
+    }
+    body {
+        background-image: url("./wallpaper2.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .p1 {
+        margin-top: 20px;
+        font-size: 130px;
+        font-family: system-ui;
+        color: rgb(255, 251, 251);
+        width: 700px;
+        margin-left: 50px;
+    }
+    nav {
+        width: 140px;
+    }
+    .d2 {
+        position: fixed;
+        float: right;
+        margin-right: 10px;
+        margin-left: 999px;
+        overflow: auto;
+        width: 900px;
+        transition: all 0.3s;
+        margin-top: 50px;
+    }
+    .d2 p {
+        color: white;
+        font-size: 80px;
+        height: 900px;
+        width: 900px;
+        overflow: auto;
+        overflow-y: scroll;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        word-wrap: break-word;
+    }
+    
+    .d2 p::-webkit-scrollbar {
+    display: none;
+    }
+
+    body::-webkit-scrollbar {
+    display: none;
+    }
+    nav {
+    margin-left: 50px;
+    }
+    nav p {
+        text-decoration: none;
+        font-size: 50px;
+        color: white;
+        cursor: pointer;
+        margin: 50px 0;
+        margin-left: 50px;
+        transition: 0.3s;
+    }
+    nav p:hover {
+        color: rgba(57, 185, 218, 0.945);
+    }
+    nav p:active {
+        color: rgb(55, 159, 219);
+    }
+    #n1 {
+        opacity: 0;
+    }
+    #n2 {
+        opacity: 0;
+    }
+    #n3 {
+        opacity: 0;
+    }
+    #n4 {
+        opacity: 0;
+    }
+    #home {
+        opacity: 0;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
+    a:hover {
+        color: rgba(57, 185, 218, 0.945);
+    }
+    a:active {
+        color: rgb(55, 159, 219);
+    }
+
+    .wallp {
+        width: 300px;
+        height: 30px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ww {
+        background-color: transparent;
+        height: 30px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        cursor: pointer;
+        
+    }
+    .box {
+        width: 10px;
+        height: 10px;
+        margin: 0 5px;
+    }
+    #boxBlack {
+        background-color: rgb(85, 68, 236);
+        cursor: pointer;
+    }
+    #boxWhite {
+        background-color: rgb(77, 138, 209);
+
+    cursor: pointer;
+    }
+    
+</style>
