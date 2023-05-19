@@ -140,8 +140,11 @@ function fadeOut4() {
     textBox8.style['pointer-events'] = 'none';
 }
 
-function kkkk() {
-    document.getElementById("#backgroundOK").style.backgroundImage = "url(wallpaper3.jpg)";
+function change() {
+    document.querySelector("body").style.backgroundImage = "url(wallpaper3.jpg)";
+ }
+ function change2() {
+    document.querySelector("body").style.backgroundImage = "url(wallpaper2.jpg)";
  }
 
 

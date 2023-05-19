@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <title>Home</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="d1">
     <p class="p1">
     Winston <br>suwannakit
@@ -20,11 +21,11 @@
 <div class="wallp">
     <div class="ww" id="www1">
         <div class="box" id="boxBlack"></div>
-        <p onclick="myfunciton()">City Night</p>
+        <p onclick="change()">City Night</p>
     </div>
     <div class="ww" id="www2">
         <div class="box" id="boxWhite"></div>
-        <p>Nature</p>
+        <p onclick="change2()">Nature</p>
     </div>
 </div>
 
@@ -72,7 +73,18 @@ Hello my name is Winston Suwannakit and my full name is Winston Teewara Suwannak
 </div>
 <div class="d2" id="n4">
 <p>
-sagdasfguguurturiwerwiryo
+Contact
+<br><br>
+<i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>850 W Combs Rd,<br> Queen Creek, AZ 85140<br><br>
+<i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone:<br>911-911-9111<br><br>
+<a href="mailto: ws47389@stu.alaschools.org"><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i></a>Email: <br>ws47389@stu.alaschools.org
+<br><br>
+<i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
 </p>
 </div>
 
@@ -83,6 +95,13 @@ sagdasfguguurturiwerwiryo
 </html>
 
 <style>
+    #n4 p {
+        font-size: 57px;
+    }
+    #n4 i:hover {
+        transition: 0.3s;
+        color: rgba(57, 185, 218, 0.945);;
+    }
     .d1 {
        position: fixed;
     }
@@ -90,6 +109,7 @@ sagdasfguguurturiwerwiryo
         background-image: url("./wallpaper2.jpg");
         background-size: cover;
         background-attachment: fixed;
+        transition: 0.3s;
     }
     .p1 {
         margin-top: 20px;
