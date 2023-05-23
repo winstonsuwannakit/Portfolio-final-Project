@@ -146,38 +146,9 @@ function change() {
  function change2() {
     document.querySelector("body").style.backgroundImage = "url(wallpaper2.jpg)";
  }
-
-
-
-
-
-
-
-let intro = document.querySelector('.intro')
-let logo = document.querySelector('.logo-header')
-let logoSpan = document.querySelectorAll('.logo')
-window.addEventListener('DOMContentLoaded',()=>{
-      setTimeout(()=>{
-        logoSpan.forEach((span,idx) => {
-          setTimeout(()=>{
-            span.classList.add('active')
-        }, (idx+1)*400);
-      });
-
-
-      setTimeout(()=>{
-        logoSpan.forEach((span,idx)=>{
-          setTimeout(()=>{
-            span.classList.remove('active');
-            span.classList.add('fade');
-          }, (idx+1)*50)
-        })
-      },2000);
-      setTimeout(() => {
-        intro.style.top= '-100vh'
-      },2300);
-    })
-  })
+ function change3() {
+    document.querySelector("body").style.backgroundImage = "url(wallapaper4.jpg)";
+}
 
 
 

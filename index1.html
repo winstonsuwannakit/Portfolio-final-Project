@@ -3,8 +3,6 @@
 <head>
 <title>Home</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
 <div class="d1">
     <p class="p1">
     Winston <br>suwannakit
@@ -12,7 +10,7 @@
 <script src="./transition.js"></script>
 </head>
 
-<body id="backgroundOK">
+<body>
 
     <nav>
         <p onclick="fadeOut1()" id="home">Home</p>
@@ -21,6 +19,10 @@
         <p onclick="fadeOut4()" id="contact">Contact</p>
     </nav>
 <div class="wallp">
+    <div class="ww" id="www3">
+        <div class="box" id="boxLight"></div>
+        <p onclick="change3()">Room</p>
+    </div>
     <div class="ww" id="www1">
         <div class="box" id="boxBlack"></div>
         <p onclick="change()">City Night</p>
@@ -29,6 +31,7 @@
         <div class="box" id="boxWhite"></div>
         <p onclick="change2()">Nature</p>
     </div>
+
 </div>
 
 </div>
@@ -201,6 +204,7 @@ Contact
     .wallp {
         width: 300px;
         height: 30px;
+        margin-left: 40px;
         background-color: transparent;
         display: flex;
         flex-direction: row;
@@ -230,8 +234,11 @@ Contact
     }
     #boxWhite {
         background-color: rgb(77, 138, 209);
-
-    cursor: pointer;
+        cursor: pointer;
+    }
+    #boxLight {
+        background-color: rgb(27, 3, 245);
+        cursor: pointer;
     }
     
 </style>
